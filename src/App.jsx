@@ -4,6 +4,7 @@ import { ListaInterna } from "./pages/01-ListaInternaUseState/ListaInterna";
 import { RelogioDigital } from "./pages/02-RelogioDigital/RelogioDigital";
 import { Form } from "./pages/03-FormularioComponente/Form";
 import { ListaBusca } from "./pages/04-ListaBusca/ListaBusca";
+import { Desafio } from "./pages/05-Desafio/Desafio";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -47,6 +48,16 @@ function App() {
         a lista em tela
       </h3>
       <ListaBusca></ListaBusca>
+      <br />
+      <br />
+      <br />
+      <h3>
+        Usando os hooks useState e useEffect crie uma página que mude a cor do
+        fundo de tela toda vez em que um botão for clicado. Adicionalmente, toda
+        vez que a cor de fundo for alterada, deve ser mostrado em tela o código
+        HEX da cor exibida. Use no máximo 4 cores
+      </h3>
+      <Desafio></Desafio>
     </>
   );
 }
