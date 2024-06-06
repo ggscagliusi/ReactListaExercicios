@@ -2,6 +2,14 @@
 {
     background-color: #fff;
     border-radius: 5px;
+    width: 150px;
+    height: 30px;
     border: 0;
+    margin: 5px;
     color: black;
+}
+.label{
+
+    margin: 6px;
+
 }
